@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Amadon</title>
 </head>
+
 <body>
     <h3>Thank you for your business!</h3>
-    <p>We charged your credit card for $</p>
-    <p>You have ordered # items so far and spent $$ with Amadon.com!</p>
-    <p><a href="/">Go Back</a></p>
+    <p>We charged your credit card for $ {{last_orden.total_price}}
+        <p>You have ordered # {{item_all}} items so far and spent ${{gasto_total}} with Amadon.com!</p>
+        <p><a href="/">Go Back</a></p>
 </body>
+
 </html>
